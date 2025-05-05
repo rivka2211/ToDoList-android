@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, TextInput, FlatList, StyleSheet, TouchableOpacity, Switch, StatusBar } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { MaterialIcons } from '@expo/vector-icons'; // הוסף ייבוא של אייקונים
+import { MaterialIcons } from '@expo/vector-icons'; 
 
-const Home = () => {
+const Main = () => {
   const [task, setTask] = useState('');
   const [tasks, setTasks] = useState([]);
 
@@ -161,5 +161,5 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Home;
+export default Main;
 

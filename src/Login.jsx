@@ -11,7 +11,7 @@ const LoginScreen = ({ navigation }) => {
     Alert.alert("Welcome back! 🎉", `Hello, ${username}! You have logged in successfully.`);
     setUsername('');
     setPassword('');
-    navigation.navigate('Home'); 
+    navigation.navigate('Main'); 
   };
 
   return (
